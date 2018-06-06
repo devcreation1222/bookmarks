@@ -1,0 +1,19 @@
+#search {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    color: #ab9ba9;
+    background-color: #4C394B;
+    border-right: 1px solid #e5e5e5;
+    padding-top: 20px;
+}
+
+#bookmarks-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 280px;
+}

@@ -1,0 +1,131 @@
+/*TODO separate like in original bookmarks project*/
+
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Lucida Grande", "Segoe UI", Ubuntu, Cantarell, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+#wrapper {
+  min-width: 800px;
+  height: 100%;
+}
+#wrapper #side-nav {
+  background-color: #2A2229;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+#wrapper #side-nav ul {
+  list-style: none;
+  padding: 35px 20px;
+  margin: 0;
+}
+#wrapper #side-nav ul li {
+  padding-bottom: 15px;
+}
+#wrapper #side-nav ul li a {
+  font-size: 2rem;
+  color: #555;
+  background-color: #2A2229;
+}
+#wrapper #side-nav ul li a:hover {
+  color: #52affb;
+  background-color: #2A2229;
+}
+#wrapper #main {
+  min-width: 500px;
+  position: absolute;
+  left: 70px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.image-link {
+  display: inline-block;
+}
+.image-link.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.fa-trash-o {
+  color: #A71515;
+}
+.fa-plus {
+  color: #8CD31E;
+}
+a {
+  cursor: pointer;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+.container {
+  max-width: none !important;
+  width: 970px;
+}
+.bookmark-row {
+  border-bottom: 1px solid #e5e5e5;
+}
+.bookmark-row .bookmark-cell {
+  display: table-cell;
+  padding: 5px;
+}
+.bookmark-row .bookmark-cell.checkbox {
+  min-width: 50px;
+  padding-left: 40px;
+}
+.bookmark-row .bookmark-cell.title {
+  width: 100%;
+  min-width: 350px;
+}
+.bookmark-row .bookmark-cell.url {
+  min-width: 450px;
+}
+.bookmark-row .bookmark-cell.tags {
+  min-width: 60px;
+}
+.bookmark-row .bookmark-cell.tools {
+  min-width: 60px;
+}
+.bookmark-row .bookmark-cell.info {
+  min-width: 30px;
+}
+.tag-row {
+  border-bottom: 1px solid #e5e5e5;
+}
+.tag-row .tag-cell {
+  display: table-cell;
+  padding: 8px;
+}
+.tag-row .tag-cell.title {
+  min-width: 500px;
+}
+.tag-row .tag-cell.description {
+  min-width: 500px;
+  width: 100%;
+}
+.tag-row .tag-cell.tools {
+  min-width: 100px;
+}
+
+.help-block {
+  padding: 40px;
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.display-none {
+  display: none;
+}

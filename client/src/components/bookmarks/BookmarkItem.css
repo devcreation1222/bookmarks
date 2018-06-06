@@ -1,0 +1,15 @@
+#buttons-div {
+    white-space: nowrap;
+}
+
+.fa-exclamation-circle {
+    color: #3A891E;
+}
+
+.fa-pencil {
+    color: darkgoldenrod;
+}
+
+.actions-panel i {
+    margin: 5px;
+}

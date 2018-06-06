@@ -1,0 +1,6 @@
+data/db.json
+test.js
+node_modules
+build
+.idea
+!data/user_settings/default.json

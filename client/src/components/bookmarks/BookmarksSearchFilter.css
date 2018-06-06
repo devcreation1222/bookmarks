@@ -1,0 +1,27 @@
+.statistic-row {
+    padding-bottom: 5px;
+}
+
+.statistic-row strong {
+    color: white;
+}
+
+.title-row {
+    margin-bottom: 12px;
+}
+
+.search-actions {
+    margin-top: 10px;
+}
+
+.search-actions button {
+    margin-top: 10px;
+}
+
+.results-row {
+    margin-top: 15px;
+}
+
+#btn-search {
+    margin-right: 8px;
+}

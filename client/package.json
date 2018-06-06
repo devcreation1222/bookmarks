@@ -1,0 +1,33 @@
+{
+  "name": "ba-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://yegor-sytnyk.github.io/bookmarks-archive",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
+    "freezer-js": "^0.11.2",
+    "jquery": "^3.1.1",
+    "moment": "^2.15.2",
+    "react": "^15.3.2",
+    "react-autobind": "^1.0.6",
+    "react-bootstrap": "^0.30.5",
+    "react-dom": "^15.3.2",
+    "react-dropzone": "^3.7.3",
+    "react-markdown": "^2.4.2",
+    "react-select": "^1.0.0-rc.2",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  },
+  "proxy": "http://localhost:4088",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}

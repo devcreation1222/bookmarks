@@ -1,0 +1,20 @@
+.header {
+    margin-top: 10px;
+}
+.header i {
+    margin-right: 7px;
+}
+.header span {
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+.content {
+    border: 1px solid #C7BCC6;
+    margin-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.header-active {
+    color: #C7BCC6;
+}

@@ -1,0 +1,237 @@
+{
+  "tags": [
+    {
+      "title": "IT/Dev/JS",
+      "description": "JavaScript",
+      "id": 1
+    },
+    {
+      "title": "IT/Dev/JS/TypeScript",
+      "description": "TypeScript",
+      "id": 2
+    },
+    {
+      "title": "IT/Dev/Databases",
+      "description": "Databases",
+      "id": 3
+    },
+    {
+      "title": "IT/Dev/JS/Node",
+      "description": "NodeJS",
+      "id": 4
+    },
+    {
+      "title": "IT/Dev/JS/Async",
+      "description": "Asynchronous programming in JS",
+      "id": 5
+    },
+    {
+      "title": "IT/Dev/Auth",
+      "description": "Authentication",
+      "id": 6
+    },
+    {
+      "title": "IT/Dev/ErrorHanling",
+      "description": "Error Handling techniques",
+      "id": 7
+    },
+    {
+      "title": "News",
+      "description": "News Web Sites",
+      "id": 8
+    },
+    {
+      "title": "Funny",
+      "description": "Funny stuff",
+      "id": 9
+    },
+    {
+      "title": "Pictures",
+      "description": "Picture links",
+      "id": 10
+    },
+    {
+      "title": "Video",
+      "description": "Video links",
+      "id": 11
+    },
+    {
+      "title": "Hisotry",
+      "description": "History related",
+      "id": 12
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": 1,
+      "title": "You-Dont-Know-JS: A book series on JavaScript.",
+      "url": "https://github.com/getify/You-Dont-Know-JS",
+      "isDeleted": false,
+      "tags": [
+        1
+      ],
+      "creationDate": "12/06/2016",
+      "originalPath": "",
+      "isTagged": false
+    },
+    {
+      "id": 2,
+      "title": "TypeScript official site",
+      "url": "https://www.typescriptlang.org/",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Google search",
+      "url": "https://www.google.com",
+      "isDeleted": true,
+      "tags": [],
+      "creationDate": "12/06/2016",
+      "originalPath": "",
+      "isTagged": false
+    },
+    {
+      "title": "TypeScript book: useful tips on TypeScript usage.",
+      "url": "https://github.com/basarat/typescript-book",
+      "tags": [
+        2
+      ],
+      "id": 4
+    },
+    {
+      "title": "Knex ORM: Pluralsight course",
+      "url": "https://www.pluralsight.com/courses/nodejs-data-access-using-knex",
+      "tags": [
+        3,
+        4
+      ],
+      "id": 5,
+      "isTagged": true
+    },
+    {
+      "title": "Bookshelf Tutorial",
+      "url": "http://stackabuse.com/bookshelf-js-a-node-js-orm/",
+      "tags": [
+        3,
+        4
+      ],
+      "id": 6
+    },
+    {
+      "title": "Node Hero: Node dev tutorial series",
+      "url": "https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/",
+      "tags": [
+        4
+      ],
+      "id": 7
+    },
+    {
+      "title": "You Don't Know JS: Async & Performance",
+      "url": "https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance",
+      "tags": [
+        5
+      ],
+      "id": 8
+    },
+    {
+      "title": "Understand promises before you start using async/await",
+      "url": "https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8#.wf91zach9",
+      "tags": [
+        5
+      ],
+      "id": 9
+    },
+    {
+      "title": "Easy Node Authentication scotch.io tutorial series",
+      "url": "https://scotch.io/tutorials/easy-node-authentication-setup-and-local",
+      "tags": [
+        6,
+        4
+      ],
+      "id": 10
+    },
+    {
+      "title": "Best Practices of Node.JS Error Handling",
+      "url": "http://goldbergyoni.com/checklist-best-practices-of-node-js-error-handling/",
+      "tags": [
+        7,
+        4
+      ],
+      "id": 11
+    },
+    {
+      "title": "BBC: British news",
+      "url": "http://www.bbc.com/",
+      "tags": [
+        8
+      ],
+      "id": 12
+    },
+    {
+      "title": "JavaScript Daily",
+      "url": "https://twitter.com/JavaScriptDaily",
+      "tags": [
+        1,
+        8
+      ],
+      "id": 13
+    },
+    {
+      "title": "Nine: Australian news",
+      "url": "http://www.nine.com.au/",
+      "tags": [
+        8
+      ],
+      "id": 14
+    },
+    {
+      "title": "JavaScript Development vs Meat Cooking",
+      "url": "https://pbs.twimg.com/media/Ct89qbNWgAQvAPF.jpg",
+      "tags": [
+        9,
+        1,
+        10
+      ],
+      "id": 15
+    },
+    {
+      "title": "Evolution of Thinking",
+      "url": "http://ru.fishki.net/picsw/102009/20/post/evoluciya/evoluciya031.jpg",
+      "tags": [
+        9,
+        10
+      ],
+      "id": 16
+    },
+    {
+      "title": "If you ever feel useless",
+      "url": "https://www.youtube.com/watch?v=-C-WMdbsQps",
+      "tags": [
+        9,
+        11
+      ],
+      "id": 17
+    },
+    {
+      "title": "MIME THROUGH TIME",
+      "url": "https://www.youtube.com/watch?v=PMpQUsQcJFg",
+      "tags": [
+        9,
+        12,
+        11
+      ],
+      "id": 18
+    },
+    {
+      "title": "The Expert (Short Comedy Sketch)",
+      "url": "https://www.youtube.com/watch?v=BKorP55Aqvg",
+      "tags": [
+        9,
+        11
+      ],
+      "id": 19
+    }
+  ]
+}

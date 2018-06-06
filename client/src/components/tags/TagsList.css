@@ -1,0 +1,30 @@
+#info-message {
+    font-size: 16px;
+}
+
+.tag-list-header {
+    text-align: center;
+    height: 60px;
+}
+
+.tag-list-header a {
+    margin: 12px;
+}
+
+.tag-list-body-header {
+    height: 20px;
+    top: 60px;
+    padding-right: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tag-list-body {
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

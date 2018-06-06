@@ -1,0 +1,13 @@
+{
+  "name": "bookmarks-archive",
+  "version": "0.1.0",
+  "devDependencies": {
+    "fs-extra": "^1.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "watch": "cd client && npm start",
+    "package:server": "cd server && webpack",
+    "package": "npm run package:server && node ./tasks/package.js"
+  }
+}
